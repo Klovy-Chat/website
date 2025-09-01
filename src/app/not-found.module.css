@@ -1,0 +1,107 @@
+
+
+.notfound-bg {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #232946 0%, #181f2f 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+.notfound-blob1 {
+  position: absolute;
+  left: -10vw;
+  top: -10vh;
+  width: 40vw;
+  height: 40vw;
+  background: #0ea5e9;
+  border-radius: 9999px;
+  filter: blur(80px);
+  opacity: 0.25;
+  z-index: 1;
+  animation: blobMove1 12s infinite alternate ease-in-out;
+}
+
+.notfound-blob2 {
+  position: absolute;
+  right: -10vw;
+  bottom: -10vh;
+  width: 40vw;
+  height: 40vw;
+  background: #2563eb;
+  border-radius: 9999px;
+  filter: blur(60px);
+  opacity: 0.18;
+  z-index: 1;
+  animation: blobMove2 14s infinite alternate ease-in-out;
+}
+
+@keyframes blobMove1 {
+  0% { transform: scale(1) translateY(0); }
+  100% { transform: scale(1.1) translateY(40px); }
+}
+@keyframes blobMove2 {
+  0% { transform: scale(1) translateY(0); }
+  100% { transform: scale(1.08) translateY(-30px); }
+}
+
+.notfound-content {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.notfound-logo {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 1.25rem;
+  box-shadow: 0 8px 32px 0 rgba(30, 64, 175, 0.18);
+  margin-bottom: 2rem;
+  background: #232946;
+  object-fit: contain;
+}
+
+.notfound-title {
+  font-size: 4rem;
+  font-weight: 900;
+  color: #38bdf8;
+  text-align: center;
+  margin-bottom: 1rem;
+  text-shadow: 0 2px 24px #0ea5e9cc;
+  letter-spacing: -0.04em;
+}
+
+.notfound-desc {
+  font-size: 1.35rem;
+  color: #c7d8ff;
+  text-align: center;
+  max-width: 32rem;
+  margin-bottom: 2rem;
+  line-height: 1.5;
+}
+
+.notfound-link {
+  padding: 0.9rem 2.5rem;
+  border-radius: 1rem;
+  background: linear-gradient(90deg, #0ea5e9 0%, #2563eb 100%);
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.15rem;
+  box-shadow: 0 4px 24px 0 rgba(30, 64, 175, 0.18);
+  transition: background 0.2s, box-shadow 0.2s, color 0.2s;
+  text-decoration: none;
+  margin-top: 0.5rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.notfound-link:hover {
+  background: linear-gradient(90deg, #2563eb 0%, #0ea5e9 100%);
+  color: #e0e7ff;
+  box-shadow: 0 8px 32px 0 rgba(30, 64, 175, 0.28);
+}
