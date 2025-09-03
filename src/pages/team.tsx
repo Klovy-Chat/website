@@ -14,7 +14,7 @@ const team = [
 	{ name: "Matisio", role: "Staff (Web Lead)", github: "matisio3", avatarUrl: "https://github.com/matisio3.png" },
 	{ name: "MaksiK023", role: "Staff (Bot Discord Lead)", github: "MaksiK023", avatarUrl: "https://github.com/MaksiK023.png" },
 	{ name: "MALYMATI2007", role: "Staff", github: "MALYMATI2007", avatarUrl: "https://github.com/MALYMATI2007.png" },
-	{ name: "R00trix", role: "Support", github: "r00trix", avatarUrl: "https://github.com/NIEPODAL.png" },
+	{ name: "R00trix", role: "Support", github: "NIEPODAL", avatarUrl: "/r00trix.png" },
 	{ name: "Zayden", role: "Support", github: "NIEPODAL", avatarUrl: "https://github.com/Ex1stence713.png" },
 	{ name: "Dj Gabryś", role: "Support", github: "DjGabrys", avatarUrl: "https://github.com/DjGabrys.png" },
 ];
