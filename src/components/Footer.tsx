@@ -53,10 +53,10 @@ export default function Footer({ lang = "pl" }: { lang?: "pl" | "en" }) {
                     {/* Deweloperzy */}
                     <div className="flex flex-col gap-2">
                         <h3 className="font-semibold text-white">{t.developers}</h3>
-                        <a href="#" className="hover:underline">
+                        <a href="https://github.com/Klovy-Chat/website" className="hover:underline">
                             {t.documentation}
                         </a>
-                        <a href="#" className="hover:underline">
+                        <a href="https://github.com/Klovy-Chat/website" className="hover:underline">
                             {t.helpTranslate}
                         </a>
                     </div>
@@ -67,7 +67,7 @@ export default function Footer({ lang = "pl" }: { lang?: "pl" | "en" }) {
                         <Link href="/team" className="hover:underline">
                             {t.team2}
                         </Link>
-                        <a href="#" className="hover:underline">
+                        <a href="https://blog.klovy.org" className="hover:underline">
                             {t.blog}
                         </a>
                     </div>
